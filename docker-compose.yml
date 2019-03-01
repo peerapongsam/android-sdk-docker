@@ -2,9 +2,9 @@ version: '3.4'
 
 services:
   android-sdk:
-    image: peerapongsam/android-sdk:latest
+    image: peerapongsam/android-sdk:1.0
     build: ./android-sdk
   
   android-sdk-fastlane:
-    image: peerapongsam/android-sdk-fastlane:latest
+    image: peerapongsam/android-sdk:1.0-fastlane
     build: ./android-sdk-fastlane

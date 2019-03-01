@@ -13,9 +13,9 @@ Android SDK
 
 ```
 
-docker pull peerapongsam/android-sdk:latest
+docker pull peerapongsam/android-sdk:1.0
 
-docker pull peerapongsam/android-sdk-fastlane:latest
+docker pull peerapongsam/android-sdk:1.0-fastlane
 
 docker run -it --rm --name android-sdk peerapongsam/android-sdk:latest
 
